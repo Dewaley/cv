@@ -1,4 +1,4 @@
-body {
+/* body {
   padding: 10vw;
 }
 
@@ -73,4 +73,23 @@ h5 {
 a {
   text-decoration-color: #111111;
   color: #111111;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+h1 {
+  border-bottom: 1px solid #111111;
+  text-align: center;
+  padding: 2rem;
+}
+
+.box {
+  border: 1px solid #111111;
+  flex: 1;
+  padding: 2rem;
 }
