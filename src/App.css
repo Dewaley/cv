@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body {
+  padding: 10vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20vw;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 57.6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 45vw;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 25vw;
+}
+
+h4 {
+  padding: 1rem 0;
+  font-weight: 400;
+  font-size: 0.625rem;
+}
+
+.xp-card {
+  padding: 1rem 0;
+  font-size: .625rem;
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  position: relative;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: .75rem;
+}
+
+.xp-card span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #111111;
+  width: 1.5rem;
+}
+
+.card {
+  font-size: .625rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+a {
+  text-decoration-color: #111111;
+  color: #111111;
 }
