@@ -93,3 +93,7 @@ h1 {
   flex: 1;
   padding: 2rem;
 }
+
+span {
+  color: red;
+}
