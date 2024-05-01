@@ -31,89 +31,94 @@ function App() {
             i <span>love</span> you because you are beautiful
           </p>
         </div>
+
         <div className="box">
-          <p>
+          <p data-animation="fadeInUp">
             i <span>love</span> you because you are kind
           </p>
-          <p>
+          <p data-animation="fadeInDown">
             i <span>love</span> you because i’m never afraid to be myself around
             you
           </p>
-          <p>
+          <p data-animation="fadeInRight">
             i <span>love</span> you because you are always available when i call
           </p>
-          <p>
+          <p data-animation="fadeInDown">
             i <span>love</span> you because i need you. not in the ways to
             survive, but in the way that make life worth living
           </p>
-          <p>
+          <p data-animation="fadeInLeft">
             i <span>love</span> you because you gave me the gift of you
           </p>
-          <p>
+          <p data-animation="fadeInUp">
             i <span>love</span> you because of how ambitious you are{" "}
           </p>
         </div>
+
         <div className="box">
-          <p>
+          <p data-animation="fadeInDown">
             i <span>love</span> you because of how vulnerable you are with me
           </p>
-          <p>
+          <p data-animation="fadeInRight">
             i <span>love</span> you because you have taught me the true meaning
             of love and commitment
           </p>
-          <p>
+          <p data-animation="fadeInUp">
             i <span>love</span> you because you are attentive to me
           </p>
-          <p>
+          <p data-animation="fadeInLeft">
             i <span>love</span> you because you inspire me
           </p>
-          <p>
+          <p data-animation="fadeInRight">
             i <span>love</span> you because you listen to me without judgements
           </p>
-          <p>
+          <p data-animation="fadeInUp">
             i <span>love</span> you because you support me unconditionally
           </p>
-          <p>
+          <p data-animation="fadeInLeft">
             i <span>love</span> you because you treat me like family
           </p>
         </div>
+
         <div className="box">
-          <p>
+          <p data-animation="fadeInDown">
             i <span>love</span> you because you have become an essential part of
             my life’s journey
           </p>
-          <p>
+          <p data-animation="fadeInDown">
             i <span>love</span> you because you are my constant source of
             encouragement
           </p>
-          <p>
+          <p data-animation="fadeInRight">
             i <span>love</span> you because you are my constant source of
             encouragement
           </p>
-          <p>
+          <p data-animation="fadeInUp">
             i <span>love</span> you because you make me laugh
           </p>
-          <p>
+          <p data-animation="fadeInLeft">
             i <span>love</span> you because you are patient
           </p>
         </div>
+
         <div className="box">
-          <p>
-            i <span>love</span> you because you have become an essential part of
-            my life’s journey
+          <p data-animation="fadeInLeft">
+            i <span>love</span> you because you're the one I want to share my
+            life with, through thick and thin.
           </p>
-          <p>
-            i <span>love</span> you because you are my constant source of
-            encouragement
+          <p data-animation="fadeInRight">
+            i <span>love</span> you because you've taught me the importance of
+            patience and understanding.
           </p>
-          <p>
-            i <span>love</span> you because you make me loved
+          <p data-animation="fadeInUp">
+            i <span>love</span> you because home is whenever I'm with you.
           </p>
-          <p>
-            i <span>love</span> you because you make me laugh
+          <p data-animation="fadeInRight">
+            i <span>love</span> you because you make the ordinary extraordinary.
           </p>
-          <p>
-            i <span>love</span> you because you are patient
+          <p data-animation="fadeInDown">
+            i <span>love</span> you because you're my anchor, grounding me when
+            I feel adrift.
           </p>
         </div>
       </div>
