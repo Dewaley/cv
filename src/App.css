@@ -75,6 +75,9 @@ a {
   color: #111111;
 } */
 
+
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -83,17 +86,28 @@ a {
 }
 
 h1 {
-  border-bottom: 1px solid #111111;
+  border-bottom: 1px solid #CCCCCC;
   text-align: center;
   padding: 2rem;
+  font-family: "Jacques Francois", serif;
+  font-weight: 400;
 }
 
 .box {
-  border: 1px solid #111111;
+  border: 1px solid #CCCCCC;
   flex: 1;
-  padding: 2rem;
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
 }
 
 span {
   color: red;
+}
+
+p{
+  max-width: 275px;
+  line-height: auto;
+  margin-bottom: 12px;
 }
