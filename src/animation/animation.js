@@ -46,7 +46,7 @@ const animations = () => {
   fUp.forEach((item) => {
     gsap.set(item, {
       opacity: 0,
-      yPercent: 30,
+      yPercent: 20,
     });
     IO(item, { threshold: 1 }).then(() => {
       gsap.to(item, {
@@ -78,7 +78,7 @@ const animations = () => {
   fLeft.forEach((item) => {
     gsap.set(item, {
       opacity: 0,
-      xPercent: -20,
+      xPercent: -10,
     });
     IO(item, { threshold: 0.5 }).then(() => {
       gsap.to(item, {
@@ -94,7 +94,7 @@ const animations = () => {
   fRight.forEach((item) => {
     gsap.set(item, {
       opacity: 0,
-      xPercent: 20,
+      xPercent: 10,
     });
     IO(item, { threshold: 1 }).then(() => {
       gsap.to(item, {
