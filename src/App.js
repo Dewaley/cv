@@ -121,6 +121,50 @@ function App() {
             I feel adrift.
           </p>
         </div>
+
+        <div className="box">
+          <p data-animation="fadeInDown">
+            i <span>love</span> you because you bring out the best in me.
+          </p>
+          <p data-animation="fadeInDown">
+            i <span>love</span> you because you're my sounding board, always
+            ready to listen
+          </p>
+          <p data-animation="fadeInRight">
+            i <span>love</span> you because you make life's challenges easier to
+            face.
+          </p>
+          <p data-animation="fadeInUp">
+            you've shown me the meaning of true partnership.you make me laugh
+          </p>
+          <p data-animation="fadeInLeft">
+            i <span>love</span> you because you make me feel like the luckiest
+            person in the world.
+          </p>
+        </div>
+
+        <div className="box">
+          <p data-animation="fadeInUp">
+            i <span>love</span> you because you've shown me the beauty of
+            vulnerability and honesty.
+          </p>
+          <p data-animation="fadeInRight">
+            i <span>love</span> you because you've brought so much light and
+            warmth into my life
+          </p>
+          <p data-animation="fadeInLeft">
+            i <span>love</span> you because you've given me the greatest gift of
+            all: your love.
+          </p>
+          <p data-animation="fadeInRight">
+            i <span>love</span> you because you make me feel complete in a way I
+            never thought possible.
+          </p>
+          <p data-animation="fadeInUp">
+            i <span>love</span> you becauseyou've filled my life with laughter,
+            joy, and endless love.
+          </p>
+        </div>
       </div>
     </>
   );
